@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Learning Journey</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      color: #333;
+    }
+
+    .container {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+      max-width: 640px;
+      width: 100%;
+      padding: 48px 40px;
+    }
+
+    .name {
+      font-size: 32px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 8px;
+      letter-spacing: 2px;
+    }
+
+    .tagline {
+      font-size: 15px;
+      color: #777;
+      margin-bottom: 28px;
+      line-height: 1.6;
+    }
+
+    .progress {
+      background: #f8f9ff;
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 32px;
+    }
+
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 12px;
+    }
+
+    .progress-label {
+      font-size: 14px;
+      font-weight: 600;
+      color: #667eea;
+    }
+
+    .progress-count {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a1a2e;
+    }
+
+    .progress-count span {
+      font-size: 14px;
+      font-weight: 400;
+      color: #aaa;
+    }
+
+    .progress-bar {
+      height: 8px;
+      background: #e8ebff;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0.56%;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      border-radius: 4px;
+      transition: width 0.4s ease;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #1a1a2e;
+      margin-bottom: 24px;
+      line-height: 1.4;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #667eea;
+      display: inline-block;
+    }
+
+    .roadmap {
+      list-style: none;
+      display: grid;
+      gap: 12px;
+    }
+
+    .roadmap li {
+      background: #f8f9ff;
+      border-left: 4px solid #667eea;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      font-size: 15px;
+      color: #444;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .roadmap li:hover {
+      transform: translateX(4px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+    }
+
+    footer {
+      margin-top: 36px;
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="name">邵明明</div>
+    <p class="tagline">建筑专业背景，正在转型AI应用开发。</p>
+
+    <div class="progress">
+      <div class="progress-header">
+        <span class="progress-label">学习进度</span>
+        <div class="progress-count">Day 1 <span>/ 180</span></div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+    </div>
+
+    <h1>我的180天AI转型计划</h1>
+
+    <h2 class="section-title">学习路线</h2>
+    <ul class="roadmap">
+      <li>Python</li>
+      <li>Web开发</li>
+      <li>AI API</li>
+      <li>RAG</li>
+      <li>Agent</li>
+    </ul>
+
+    <footer>AI Learning Journey · 2026</footer>
+  </div>
+</body>
+</html>
