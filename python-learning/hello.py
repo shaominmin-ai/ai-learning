@@ -1,14 +1,17 @@
-courses=['python',"Web开发","AI API","RAG"]
+users=[
+    {
+        "name":"邵敏敏",
+        "age":31,
+        "goal":"ai应用开发"
+    },
+    {
+        "name":"小明",
+        "age":25,
+        "goal":"python开发"
+    }
+]
 
-print("我的学习路线：")
-print(courses)
-
-print("第一阶段：")
-print(courses[0])
-
-courses.append("Agent")
-
-print("新增阶段：")
-print(courses)
-
-
+print(users)
+print(users[0])
+print(users[0]["name"])
+print(users[1]["goal"])
