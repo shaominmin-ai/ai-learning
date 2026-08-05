@@ -1,6 +1,5 @@
-def learning(skill):
-    print(f"我正在学习{skill},希望成为AI应用开发者")
+from ai_tools import generate_answer
 
-learning("python")
-learning("RAG")
-learning("Agent")
+answer=generate_answer("什么是RAG?")
+
+print(answer)
