@@ -6,3 +6,7 @@ def get_users():
         users=json.load(file)
 
     return users
+
+def count_users():
+    users=get_users()
+    return len(users)
