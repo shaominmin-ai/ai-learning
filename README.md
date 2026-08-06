@@ -15,3 +15,11 @@
 - AI API
 - RAG
 - Agent
+
+Day6 completed:
+
+- Exception handling
+
+- Logging system
+
+- Git version update
