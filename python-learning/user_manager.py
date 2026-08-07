@@ -45,3 +45,16 @@ def update_user(name,new_goal):
     
     return False
 
+
+
+class UserManager:
+
+    def __init__(self):
+        self.users=[]
+
+    def add_user(self,user):
+        self.users.append(user)
+
+    def show_users(self):
+        for user in self.users:
+            print(user.__dict__)
